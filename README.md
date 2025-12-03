@@ -59,7 +59,7 @@ The script:
 
 ### Python Dependencies
 
-Only two libraries are required:
+Two libraries are required:
 
 ```python
 import pandas as pd
