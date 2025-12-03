@@ -71,6 +71,3 @@ Install pandas if missing:
 ```bash
 pip install pandas
 ```
-
-If you want, I can shrink this even more for a “README-short.md” or adapt the text to match your seminar wording.
-```
