@@ -1,6 +1,3 @@
-You’re right, I hadn’t actually looked into the zip before — I do now. Here’s a **concise README** that matches your project structure and scripts:
-
-````markdown
 # SUMO Freight Simulation – 4 Scenario Study
 
 This repository contains a SUMO-based case study with four scenarios:
