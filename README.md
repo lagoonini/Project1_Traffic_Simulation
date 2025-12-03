@@ -1,4 +1,4 @@
-# Project 1 SUMO Simulation – 4 Scenario Study
+# Project 1: SUMO Simulation – 4 Scenario Study
 
 This repository contains a SUMO-based case study with four scenarios:
 
