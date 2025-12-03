@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <!-- Logistics trucks for baseline scenario (7–9 a.m.)
+       40 trucks total
+  -->
+
+  <!-- SPAR / UCS / TGW / Roswell2 / Roswell3&4 trucks, sorted by depart -->
+
+  <!-- 07:12 -->
+  <trip id="T_SPAR_01" type="truck_euro6" depart="720"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:spar_hq" duration="600"/>
+  </trip>
+
+  <!-- 07:20 block -->
+  <trip id="T_UCS_01" type="truck_euro6" depart="800"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:ucs_industriepark1" duration="600"/>
+  </trip>
+
+  <trip id="T_TGW_01" type="truck_euro6" depart="800"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:tgw_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_ROS34_01" type="truck_euro6" depart="800"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:RoswellLager3and4" duration="600"/>
+  </trip>
+
+  <!-- 07:30 -->
+  <trip id="T_ROS2_01" type="truck_euro6" depart="900"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:RoswellLager2" duration="600"/>
+  </trip>
+
+  <!-- 08:00 block -->
+  <trip id="T_SPAR_02" type="truck_euro6" depart="1440"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:spar_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_UCS_02" type="truck_euro6" depart="1600"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:ucs_industriepark1" duration="600"/>
+  </trip>
+
+  <trip id="T_TGW_02" type="truck_euro6" depart="1600"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:tgw_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_ROS34_02" type="truck_euro6" depart="1600"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:RoswellLager3and4" duration="600"/>
+  </trip>
+
+  <trip id="T_ROS2_02" type="truck_euro6" depart="1800"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:RoswellLager2" duration="600"/>
+  </trip>
+
+  <!-- ~08:36 block -->
+  <trip id="T_SPAR_03" type="truck_euro6" depart="2160"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:spar_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_UCS_03" type="truck_euro6" depart="2400"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:ucs_industriepark1" duration="600"/>
+  </trip>
+
+  <trip id="T_TGW_03" type="truck_euro6" depart="2400"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:tgw_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_ROS34_03" type="truck_euro6" depart="2400"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:RoswellLager3and4" duration="600"/>
+  </trip>
+
+  <trip id="T_ROS2_03" type="truck_euro6" depart="2700"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:RoswellLager2" duration="600"/>
+  </trip>
+
+  <!-- ~08:48 block -->
+  <trip id="T_SPAR_04" type="truck_euro6" depart="2880"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:spar_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_UCS_04" type="truck_euro6" depart="3200"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:ucs_industriepark1" duration="600"/>
+  </trip>
+
+  <trip id="T_TGW_04" type="truck_euro6" depart="3200"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:tgw_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_ROS34_04" type="truck_euro6" depart="3200"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:RoswellLager3and4" duration="600"/>
+  </trip>
+
+  <!-- 09:00 block -->
+  <trip id="T_ROS2_04" type="truck_euro6" depart="3600"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:RoswellLager2" duration="600"/>
+  </trip>
+
+  <trip id="T_SPAR_05" type="truck_euro6" depart="3600"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:spar_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_UCS_05" type="truck_euro6" depart="4000"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:ucs_industriepark1" duration="600"/>
+  </trip>
+
+  <trip id="T_TGW_05" type="truck_euro6" depart="4000"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:tgw_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_ROS34_05" type="truck_euro6" depart="4000"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:RoswellLager3and4" duration="600"/>
+  </trip>
+
+  <!-- after 09:00 -->
+  <trip id="T_SPAR_06" type="truck_euro6" depart="4320"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:spar_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_ROS2_05" type="truck_euro6" depart="4500"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:RoswellLager2" duration="600"/>
+  </trip>
+
+  <trip id="T_UCS_06" type="truck_euro6" depart="4800"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:ucs_industriepark1" duration="600"/>
+  </trip>
+
+  <trip id="T_TGW_06" type="truck_euro6" depart="4800"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:tgw_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_ROS34_06" type="truck_euro6" depart="4800"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:RoswellLager3and4" duration="600"/>
+  </trip>
+
+  <trip id="T_SPAR_07" type="truck_euro6" depart="5040"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:spar_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_ROS2_06" type="truck_euro6" depart="5400"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:RoswellLager2" duration="600"/>
+  </trip>
+
+  <trip id="T_UCS_07" type="truck_euro6" depart="5600"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:ucs_industriepark1" duration="600"/>
+  </trip>
+
+  <trip id="T_TGW_07" type="truck_euro6" depart="5600"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:tgw_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_ROS34_07" type="truck_euro6" depart="5600"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:RoswellLager3and4" duration="600"/>
+  </trip>
+
+  <trip id="T_SPAR_08" type="truck_euro6" depart="5760"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:spar_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_ROS2_07" type="truck_euro6" depart="6300"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:RoswellLager2" duration="600"/>
+  </trip>
+
+  <trip id="T_UCS_08" type="truck_euro6" depart="6400"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:ucs_industriepark1" duration="600"/>
+  </trip>
+
+  <trip id="T_TGW_08" type="truck_euro6" depart="6400"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:tgw_hq" duration="600"/>
+  </trip>
+
+  <trip id="T_ROS34_08" type="truck_euro6" depart="6400"
+        from="314035730" to="878811131">
+    <stop parkingArea="PA:RoswellLager3and4" duration="600"/>
+  </trip>
+
+  <trip id="T_SPAR_09" type="truck_euro6" depart="6480"
+        from="878811131" to="314035730">
+    <stop parkingArea="PA:spar_hq" duration="600"/>
+  </trip>
+</routes>

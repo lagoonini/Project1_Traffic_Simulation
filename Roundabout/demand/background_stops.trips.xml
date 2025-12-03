@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <!-- Background cars going to Turmoil gas -->
+  <flow id="F_TURMOIL" type="car_default"
+        begin="0" end="7200" number="60">
+    <route edges="24609247#4"/>
+    <stop parkingArea="PA:turmoil_gas" duration="180"/>
+  </flow>
+
+  <!-- Background cars going to Avanti gas -->
+  <flow id="F_AVANTI" type="car_default"
+        begin="0" end="7200" number="60">
+    <route edges="156803978"/>
+    <stop parkingArea="PA:avanti_gas" duration="180"/>
+  </flow>
+
+  <!-- Background cars going to Postfiliale -->
+  <flow id="F_POST" type="car_default"
+        begin="0" end="7200" number="80">
+    <route edges="174967684#2"/>
+    <stop parkingArea="PA:postfiliale_4614" duration="240"/>
+  </flow>
+</routes>

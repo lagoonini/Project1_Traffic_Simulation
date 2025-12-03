@@ -1,0 +1,4 @@
+vehicle_group,powertrain,n_vehicles,mean_distance_km,total_CO2_kg,total_electricity_kWh
+background_car,Other,3629,1.253181496279967,1335.97382187,0.0
+background_truck,Diesel,600,1.2822499166666668,1402.0540705,0.0
+logistics_truck,EV,40,3.8741892499999997,0.0,176.24687

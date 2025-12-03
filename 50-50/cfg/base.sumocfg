@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <input>
+    <net-file value="../net/marchtrenk_clean2.net.xml"/>
+    <route-files value="../demand/baseline_all.rou.xml"/>
+    <additional-files value="../add/stops.add.xml"/>
+  </input>
+
+  <time>
+    <begin value="0"/>
+    <end value="7600"/>
+    <time-to-teleport value="-1"/>
+  </time>
+
+  <report>
+    <no-step-log value="true"/>
+  </report>
+
+  <output>
+    <tripinfo-output value="../outputs/tripinfo.xml"/>
+    <emission-output value="../outputs/emissions.xml"/>
+    <summary-output value="../outputs/summary.xml"/>
+  </output>
+</configuration>

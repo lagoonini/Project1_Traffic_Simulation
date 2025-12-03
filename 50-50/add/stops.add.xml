@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-10-30 17:40:25 by Eclipse SUMO netedit Version 1.24.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <parkingArea id="PA:RoswellLager2" lane="-558783357#1_0" startPos="15.21" endPos="80.00" friendlyPos="1" roadsideCapacity="10">
+        <param key="label" value="RoswellLager2"/>
+    </parkingArea>
+    <parkingArea id="PA:RoswellLager3and4" lane="29366510#0_0" startPos="15.21" endPos="60.00" friendlyPos="1" roadsideCapacity="10">
+        <param key="label" value="RoswellLager3and4"/>
+    </parkingArea>
+    <parkingArea id="PA:avanti_gas" lane="156803978_0" startPos="28.16" endPos="52.16" friendlyPos="1" roadsideCapacity="2">
+        <param key="label" value="avanti_gas"/>
+    </parkingArea>
+    <parkingArea id="PA:postfiliale_4614" lane="174967684#2_0" startPos="28.01" endPos="52.01" friendlyPos="1" roadsideCapacity="5">
+        <param key="label" value="postfiliale_4614"/>
+    </parkingArea>
+    <parkingArea id="PA:spar_hq" lane="-113607637#0_0" startPos="200.00" endPos="100.00" friendlyPos="1" roadsideCapacity="30">
+        <param key="label" value="spar_hq"/>
+    </parkingArea>
+    <parkingArea id="PA:tgw_hq" lane="98788168#0_0" startPos="0.74" endPos="80.00" friendlyPos="1" roadsideCapacity="20">
+        <param key="label" value="tgw_hq"/>
+    </parkingArea>
+    <parkingArea id="PA:turmoil_gas" lane="24609247#4_0" startPos="28.01" endPos="52.01" friendlyPos="1" roadsideCapacity="2">
+        <param key="label" value="turmoil_gas"/>
+    </parkingArea>
+    <parkingArea id="PA:ucs_industriepark1" lane="149987609_0" startPos="28.16" endPos="80.00" friendlyPos="1" roadsideCapacity="20">
+        <param key="label" value="ucs_industriepark1"/>
+    </parkingArea>
+</additional>
